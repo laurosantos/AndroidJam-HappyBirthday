@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laurosantos.happybirthday.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/android"
+        android:scaleType="centerCrop"
+        />
+    <TextView
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content"
+        android:text="Para Vera"
+        android:textSize="36sp"
+        android:textColor="#fff"
+        android:padding="20sp"
+        android:fontFamily="sans-serif-light"/>
+    <TextView
+        android:text="De Lauro"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:textColor="#fff"
+        android:textSize="36sp"
+        android:padding="20sp"
+        android:fontFamily="sans-serif-light"/>
+</RelativeLayout>
